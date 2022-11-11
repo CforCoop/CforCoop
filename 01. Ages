@@ -15,7 +15,7 @@ namespace program1
                 Console.WriteLine("teenager");
             else if (age >= 20 && age <= 65)
                 Console.WriteLine("adult");
-            else if (age > 66)
+            else if (age >= 66)
                 Console.WriteLine("elder");
 
         }
